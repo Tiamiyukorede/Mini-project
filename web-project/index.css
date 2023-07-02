@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Proxima Nova", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+.top-section p{
+    background-color: #E32C2B;
+    text-align: center;
+    padding: 12px 22px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top:0;
+    
+}
+header nav{
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top:40px;
+    height: 100px;
+    width: 100%;
+    background-color: aliceblue;align-items: center;
+}
+header nav h1{
+    height: 70px;
+    width: 200px;
+    background-size: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0080/8372/t/40/assets/tattly-logo-animated.gif?v=60040968728970160811574359084);
+    background-repeat: no-repeat;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+header nav ul li a{ 
+    padding: 30px;
+    text-decoration: none ;
+}
+main{
+    margin-top: 160px;
+}
+top-container .tit{
+
+    height: 650px;
+    width: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0080/8372/files/tattly-custom-banner-1_3350x.jpg?v=1613740486) ;
+    background-position:  center center  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom-section{
+    margin: 120px 50px 0 50px;
+   
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.talk-left{
+    width: 40%;  
+    font-size: 40px;
+    font-weight: 900;
+    color:   #242021;
+}
+.talk-right {
+    width: 55%;
+      
+}
+.talk-right p{
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+    color:   #242021;
+}
+.talk-right p a{
+    color: #242021;
+    font-weight: 600;
+    white-space: nowrap;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 1px solid  #383435b0;
+    padding-bottom: 4px;
+    transition: .3s;
+}
+.talk-right ul li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+middle-container{
+}
+ top-section{
+   
+ }
+ .koree{
+    
+    height: 80em;
+    width: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0080/8372/files/tattly-custom-flatlay-2_2048x.png?v=1613754236);
+    background-position:  center center  ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    overflow: hidden;
+}
+middle-container h2{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+middle-container top-section{
+    margin: 50px;
+    height: 650px ;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.ge-left{
+    width: 500px;  
+    
+    color:   #242021;
+}
+.ge-left p{
+    
+    line-height: 2em;
+}
+
+.ge-left h4{
+    
+    font-size: 20px;
+   align-self: flex-start;
+   
+}
+.ge-left .nom img{
+    padding-bottom: 30px;
+    width:30px;
+}
+.ge-left .nom{
+    display: flex;
+    justify-content: space-around;
+}
+.ge-left h5{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #c0c2c4;
+}
+.ge-left h5:hover{
+    color: #242021;
+}
+
+.ge-right{
+   
+    width: 600px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0080/8372/articles/tattly-custom-case-study-GE-1_1512x.jpg?v=1531085946);
+    background-position:  center center  ;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ge-right img{
+    width: 100%;
+    height: 200px;
+}
+bottom-container top-section{
+    padding: 120px;
+    background-color: rgb(254,239,233);
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.left-fa{
+    width: 100px;
+    font-size: 25px;
+}
+.mid-fa{
+    width:700px;
+    display: block;
+}
+.right p{
+   visibility: hidden;
+   display: none;
+   font-size: 25px;
+}
+.right p:hover{
+    visibility:visible
+}
+.right h5{
+   margin-bottom: 30px;
+   font-size: 25px;
+}
+
+footer {
+   background-color: #f4f4f4;
+  
+}
+ .yell{
+     background: rgb(5, 5, 5);
+     color: white;
+     height: 300px;
+     width: 100%;
+     align-items: center;
+     
+     padding-top: 100px;
+}
+.yell h1{
+    text-align: center;
+    font-size: 60px;
+  
+  
+}
+
+.yell p{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+}
+.mo{
+    color: #f4d5ca;
+    border-bottom: 1px solid #f4d5ca;
+    padding-bottom: 5px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1200px;
+    gap: 30px;
+    margin: 20px auto;
+}
+.shelf ul li{
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+}
+.grid-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.shelf h4{
+    margin: 50px 0 25px 0;
+    font-size:28px;
+    color: #242021;
+}
+.grid-part ul li a{
+    color: #242021;
+    line-height: 30px;
+    text-decoration: none;
+    font-size:20px;
+}
+.shelf h6{
+    font-size: 14px;
+    font-weight: 600;
+    color: #242021;
+}
+.tiny{
+    line-height: 1.5em;
+    margin-top: 10px;
+    font-size:0.8em;
+    color:#6d6d6f;
+}
+.tiny a{    
+    text-decoration: none;
+    color: #242021;
+    border-bottom: 1px solid #6d6d6f;
+    padding-bottom: 2px;
+}
+form{
+    display: flex;
+    margin-top: 30px;
+}
+form input{
+    
+    height: 40px;
+    width: 240px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: none;
+    font-size: 16px;
+    color: #242021;
+}
+.btn{
+    background-color: #000000;
+    color: #f4f4f4;
+    padding: 10px;
+    font-weight: 700;
+   
+}
+.grid-bottom{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 1200px;
+    gap: 50px;
+    margin: 50px auto;
+}
+.grid-bottom .left{
+    
+}
+.grid-bottom .left p{
+    color: #242021;
+    width: 85%;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+.grid-bottom .right {
+
+}
